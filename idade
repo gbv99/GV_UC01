@@ -1,0 +1,7 @@
+# Progama idade 
+import datetime 
+data_atual = datetime.date.today()
+nasc = int(input("Informe o ano de seu nascimento: "))
+ano_atual = data_atual.year
+idade = ano_atual - nasc 
+print(f"A sua idade é (idade) anos")
